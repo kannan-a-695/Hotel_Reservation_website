@@ -1,11 +1,10 @@
 import { Routes,Route} from 'react-router-dom'
-import { ContactUs } from "./ContactUs"
+import { Contactus } from "./Contactus"
 import { About } from "./About"
 import { Home } from "./Home"
 import { Booking } from "./Booking"
 import { Location } from "./Location"
 import { Room } from "./Room"
-import { Signin } from "./Signin"
 import { Login } from './Login'
 
 export const Router=()=>{
@@ -14,7 +13,7 @@ export const Router=()=>{
             <Routes>
                 <Route path='/' element={<Home/>}/>
                 <Route path='/about' element={<About/>}/>
-                <Route path='/contact' element={<ContactUs/>}/>
+                <Route path='/contact' element={<Contactus/>}/>
                 <Route path='/location' element={<Location/>}/>
                 <Route path='/booking' element={<Booking/>}/>
                 <Route path='/room' element={<Room/>}/>

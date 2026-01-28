@@ -1,7 +1,7 @@
 import React from "react";
 import "./Contact.css";
 
-export const ContactUs = () => {
+export const Contactus = () => {
   return (
     <div className="contact-page">
       <div className="contact-overlay">
