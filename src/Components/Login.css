@@ -1,0 +1,31 @@
+.booking-container {
+  max-width: 420px;
+  margin: 50px auto;
+  padding: 25px;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  border-radius: 12px;
+  color: white;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.booking-container input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 6px;
+  border: none;
+  margin-top: 6px;
+}
+
+.booking-container input:disabled {
+  background-color: #ddd;
+}
+.login{
+    min-height: 100vh;
+    background-image: url("https://cdn.wallpapersafari.com/48/71/ldeaJz.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.login h1{
+  color: azure;
+}

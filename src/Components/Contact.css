@@ -1,0 +1,42 @@
+
+.contact-page {
+  min-height: 100vh;
+  background-image: url("https://cache.marriott.com/marriottassets/marriott/DXBGL/dxbgl-royal-5610-hor-clsc.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.contact-overlay {
+  min-height: 100vh;
+  background: rgba(0, 0, 0, 0.65);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.contact-title {
+  color: #ffffff;
+  font-size: 42px;
+  margin-bottom: 30px;
+  letter-spacing: 1px;
+}
+.contact-card {
+  background: #ffffff;
+  padding: 35px 50px;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.4);
+}
+
+/* Text styling */
+.contact-card p {
+  font-size: 17px;
+  color: #2c3e50;
+  margin: 15px 0;
+  line-height: 1.6;
+}
+
+.contact-card strong {
+  color: #000000;
+}

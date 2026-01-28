@@ -1,0 +1,39 @@
+.location-container {
+  min-height: 100vh;
+  background-image: url("https://images.pexels.com/photos/338504/pexels-photo-338504.jpeg?cs=srgb&dl=pexels-thorsten-technoman-109353-338504.jpg&fm=jpg"); 
+  /* or use online image URL */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.location-content {
+  background: rgba(0, 0, 0, 0.65);
+  color: white;
+  padding: 40px 50px;
+  border-radius: 12px;
+  max-width: 650px;
+  text-align: center;
+}
+
+.location-content h1 {
+  font-size: 38px;
+  margin-bottom: 20px;
+}
+
+.location-content p {
+  font-size: 16px;
+  margin-bottom: 25px;
+}
+
+.location-content ul {
+  list-style: none;
+  padding: 0;
+}
+
+.location-content li {
+  font-size: 16px;
+  margin: 12px 0;
+}

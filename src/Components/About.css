@@ -1,0 +1,37 @@
+
+.about{
+    min-height: 100vh;
+    background-image: url("https://media.istockphoto.com/id/2110310187/photo/luxury-tropical-pool-villa-at-dusk.jpg?s=612x612&w=0&k=20&c=r8UTpMnbLWD_DOKHAcu6dw-MJEcGg0CTqt0ICa84D84=");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.about-overlay {
+  min-height: 100vh;
+  background: rgba(0, 0, 0, 0.65);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.about-title {
+  color: #ffffff;
+  font-size: 42px;
+  margin-bottom: 30px;
+  letter-spacing: 1px;
+}
+.about-card {
+  background: #ffffff;
+  padding: 35px 50px;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.4);
+}
+
+/* Text styling */
+.about-card p {
+  font-size: 17px;
+  color: #2c3e50;
+  margin: 15px 0;
+  line-height: 1.6;
+}
